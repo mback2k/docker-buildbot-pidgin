@@ -8,7 +8,7 @@ RUN apt-get update && \
         make libtool-bin pkg-config curl wget unzip \
         binutils-mingw-w64 mingw-w64 mingw-w64-tools \
         libnss3-dev libnspr4-dev zlib1g-dev \
-        libxml2-dev && \
+        libxml2-dev libgtk2.0-dev libglib2.0-dev && \
     apt-get clean
 
 USER buildbot
