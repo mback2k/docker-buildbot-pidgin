@@ -5,7 +5,7 @@ USER root
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         build-essential automake autoconf \
-        make libtool-bin pkg-config curl wget \
+        make libtool-bin pkg-config curl wget unzip \
         binutils-mingw-w64 mingw-w64 mingw-w64-tools \
         libnss3-dev libnspr4-dev zlib1g-dev \
         libxml2-dev && \
